@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var square1: UIView?
+    var square2: UIView?
+    var animator: UIDynamicAnimator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var colors = [UIColor.red, .blue, .green, .yellow, .purple, .orange, .cyan, .magenta, .brown, .black]
+    
+        // Creating Random Shapes
+    
+    
     }
 
 
